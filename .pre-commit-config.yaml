@@ -1,0 +1,14 @@
+repos:
+  - repo: https://github.com/psf/black
+    rev: 23.9.1  # versão fixa do Black a usar (pode ser atualizada conforme necessário)
+    hooks:
+      - id: black
+        name: Formatar com Black  # nome opcionalmente personalizado do hook
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.12.1  # versão do Ruff a ser usada no hook
+    hooks:
+      - id: ruff-check
+        name: Linter Ruff (verificação)
+        args: ["--fix"]  # sem --fix, para não aplicar correções automáticas
+        exclude: ^venv/

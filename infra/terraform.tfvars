@@ -1,0 +1,6 @@
+project_id   = "meu-projeto-id"
+region       = "us-central1"
+image_url    = "gcr.io/meu-projeto/minha-imagem:latest"
+dataset_id   = "meu_dataset"
+table_dados  = "dados_historicos"
+table_monitor = "monitor_execucao"

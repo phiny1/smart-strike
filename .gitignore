@@ -1,0 +1,23 @@
+# .gitignore
+__pycache__/
+.env
+*.log
+*.pyc
+*.pyo
+*.pyd
+.env*
+.venv/
+build/
+dist/
+*.egg-info/
+.DS_Store
+# VSCode
+.vscode/
+# Terraform
+terraform.tfstate*
+.terraform/
+infra/.terraform/
+infra/terraform.tfstate*
+# Docker
+*.tar
+venv/
